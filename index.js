@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/scheduled-api', (req, res) => {
-    axios.get('https://joshua-zikraBytes-assignment.onrender.com/')
+    axios.get('https://joshua-zikrabytes-assignment.onrender.com/')
         .then(response => {
             console.log(response.data);
             res.send('API request sent successfully');
